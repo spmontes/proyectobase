@@ -32,6 +32,8 @@ dependencies {
     compile 'net.serenity-bdd:serenity-junit:1.9.30'
     compile 'net.serenity-bdd:serenity-cucumber:1.9.10'
     compile 'io.rest-assured:json-path:3.1.0'
+    compile 'net.serenity-bdd:serenity-rest-assured:1.9.30'
+    
     
 }
 gradle.startParameter.continueOnFailure = true 

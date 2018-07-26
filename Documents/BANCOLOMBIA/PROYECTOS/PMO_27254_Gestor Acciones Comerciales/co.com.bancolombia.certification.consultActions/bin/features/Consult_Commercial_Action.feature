@@ -1,9 +1,9 @@
-Feature: Comnsult Actions
+Feature: Consult a person
   As a commercial advisor
-  I want to use the stock consultation service
-  consult the commercial actions of the client
+  I wish to consult the person data
+  To view person information
 
-  Scenario: Consult  Actions the one client
-    Given 
-    When 
-    Then 
+  Scenario: Check person information
+    Given I have visited the consultation service
+    When Get 1 information for api
+    Then  status code is 200
